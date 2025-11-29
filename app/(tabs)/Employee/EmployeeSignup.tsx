@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Alert, StyleSheet, View, ScrollView, Keyboard } from 'react-native';
 import * as DocumentPicker from 'expo-document-picker'; // For resume upload
 import { supabase } from '@/lib/supabase';
-import { uploadToS3 } from '../../../helpers/aws';
 import Loader from '@/components/Loader';
 import { NavigationProps } from '../../RootLayoutHelpers';
 import * as Sentry from "@sentry/react-native";
